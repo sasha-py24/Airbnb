@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <style>
+    body {background-color: rgb(52, 135, 146); }
+    h1   {color: rgb(54, 72, 112); font-family:FRANKLIN GOTHIC MEDIUM;}
+    h1   { text-align: center;}
+    h2   {color: rgb(20, 44, 44); font-family:FRANKLIN GOTHIC MEDIUM;}
+    a    {color:  #0d0769; font-size: medium; font-family:FRANKLIN GOTHIC MEDIUM;}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+</head>
+<body>
+    <h1>AIRBNB</h1>
+<h2>Шукаєте житло? Переходьте за посиланням і реєструйтесь!</h2>
+<p><a href="{{ url_for('register') }}">реєстрація</a></p>
+<left>
+<h2>Здаєте житло? Переходьте за посиланням і реєструйтесь!</h2>
+<p><a href="{{ url_for('owner_reg') }}">реєстрація</a></p>
+
+<h2>Зареєструвати житло</h2>
+<p><a href="{{ url_for('variant') }}">реєстрація</a></p>
+
+<h2>Перегляньте варіанти тут:</h2>
+<p><a href="{{ url_for('arenda') }}">варіанти</a></p>
+
+
+</left>
+</body>
+</html>
